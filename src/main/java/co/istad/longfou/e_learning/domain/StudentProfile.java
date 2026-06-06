@@ -19,8 +19,8 @@ public class StudentProfile {
     private String biology;
     private String facebookLink;
     private String githubLink;
-    private String jobTite;
-    private Integer phoneNumber;
-
+    private String major;
+    private String phoneNumber;
+    private String university;
 
 }

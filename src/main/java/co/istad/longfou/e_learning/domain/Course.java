@@ -42,8 +42,6 @@ public class Course {
 
     @ManyToOne
     private Category category;
-//    @ManyToOne
-//    private InstructorProfile instructor;
 
     @OneToMany(mappedBy = "course")
     private List<InstructorProfile> intructuorProfiles;
